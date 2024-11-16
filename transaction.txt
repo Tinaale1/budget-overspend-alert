@@ -1,0 +1,8 @@
+# transaction
+{
+    "date": "2024-11-05",
+    "amount": 40.0,
+    "category": "Food",
+    "payment_method": "cash",
+    "notes": "in n out"
+}
