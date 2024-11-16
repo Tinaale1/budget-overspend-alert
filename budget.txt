@@ -1,0 +1,10 @@
+ # budget
+{
+    "Food": 50.0,
+    "Housing": 1000.0,
+    "Transportation": 50.0,
+    "Healthcare": 0,
+    "Entertainment": 50.0,
+    "Savings": 100.0,
+    "Miscellaneous": 40.0
+}
