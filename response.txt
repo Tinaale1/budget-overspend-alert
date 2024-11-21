@@ -1,2 +1,0 @@
-Alert: You've overspent in Food by $10.0!
-Alert: You've overspent in Miscellaneous by $20.0!
