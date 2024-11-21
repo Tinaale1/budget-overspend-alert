@@ -1,8 +1,38 @@
-# transaction
-{
-    "date": "2024-11-05",
-    "amount": 40.0,
-    "category": "Food",
-    "payment_method": "cash",
-    "notes": "in n out"
-}
+[
+    {
+        "date": "2024-11-01",
+        "amount": 20.0,
+        "category": "Food",
+        "payment_method": "credit card",
+        "notes": "grocery shopping"
+    },
+    {
+        "date": "2024-11-05",
+        "amount": 40.0,
+        "category": "Food",
+        "payment_method": "cash",
+        "notes": "in n out"
+    },
+    {
+        "date": "2024-11-10",
+        "amount": 100.0,
+        "category": "Housing",
+        "payment_method": "credit card",
+        "notes": "monthly rent"
+    },
+    {
+        "date": "2024-11-12",
+        "amount": 30.0,
+        "category": "Transportation",
+        "payment_method": "debit card",
+        "notes": "gas refill"
+    },
+    {
+        "date": "2024-11-15",
+        "amount": 60.0,
+        "category": "Miscellaneous",
+        "payment_method": "credit card",
+        "notes": "holiday gift exchange"
+    }
+]
+

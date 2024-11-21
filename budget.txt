@@ -1,4 +1,3 @@
- # budget
 {
     "Food": 50.0,
     "Housing": 1000.0,
