@@ -74,3 +74,5 @@ print("Microservice Response:\n", response)
 Alert: You've overspent in Food by $20.0!
 Warning: You're close to overspending in Miscellaneous. Only $5.0 left!
 ```
+### D. UML sequence diagram
+<img width="742" alt="Screen Shot 2024-11-17 at 1 04 50 PM" src="https://github.com/user-attachments/assets/aa241cc2-e4e6-4e98-80b9-157e003e573e">
