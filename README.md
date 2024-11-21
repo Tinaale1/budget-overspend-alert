@@ -69,4 +69,4 @@ Alert: You've overspent in Food by $20.0!
 Warning: You're close to overspending in Miscellaneous. Only $5.0 left!
 ```
 ### D. UML sequence diagram
-![](/Users/tiffanyconn/Desktop/school/Software Engineering 1 CS 361/microserviceA/budget-overspend-alert/Screen Shot 2024-11-17 at 1.04.50 PM.png)
+![UML Sequence Diagram](images/Screen%20Shot%202024-11-17%20at%201.04.50%20PM.png)
