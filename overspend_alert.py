@@ -26,6 +26,13 @@ def calculate_spending_by_category(transactions):
             spending_by_category[category] = amount  # If it doesn't, create a new entry in the dictionary with this amount
     return spending_by_category # After the loop, return the dictionary with all spending totals by category
 
+# Function to write alerts to the response file
+def write_alert(response_file, category, overspend_amount=None, remaining_amount=None):
+    if overspend_amount:  # If overspend_amount is provided, write an overspend alert
+        response_file.write(f"Alert: You've overspent in {category} by ${round(overspend_amount, 2)}!\n")
+    elif remaining_amount:  # If remaining_amount is provided, write a warning about being close to overspending
+        response_file.write(f"Warning: You're close to overspending in {category}. Only ${round(remaining_amount, 2)} left!\n")
+        
 
 # Function to check for overspending and write alerts to response.txt
 def check_overspending(budget_data, spending_by_category):
