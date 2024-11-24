@@ -10,7 +10,7 @@ def get_budget_data():
 
 # Function to get transaction data from transaction.txt
 def get_transaction_data():
-    with open('transaction.txt', 'r') as transaction_file:
+    with open('transactions.txt', 'r') as transaction_file:
         return json.load(transaction_file)
 
 
